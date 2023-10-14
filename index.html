@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+	<title>Sign up Page</title>
+	<meta charset="UTF-8">
+
+	<!-- Tailwind CSS CDN link -->
+	<!--<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+		rel="stylesheet">-->
+		<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="m-4">
+	<h1 class="text-green-500 text-4xl font-bold"> 
+        Sign Up
+	</h1>
+	<div>
+		<form action="/actionpage.html" method="post">
+			<label for="email">Email:</label><br>
+			<input type="text" id="email" name="email" placeholder="Type email here..." required autofocus> <br>
+			<label for="pword">Password:</label><br>
+			<input type="text" id="pword" name="pword" placeholder="........" required> <br>
+			<input type="checkbox" id="terms" name="terms" value="terms" required >
+			<label for="terms" class="tc"> I have read & agreed to the terms and conditions. </label><br>
+			<input type="submit" id="submit" name="submit" value="Sign in"><br>
+			
+
+		</form>
+	</div>
+</body>
+</html>
